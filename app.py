@@ -11,13 +11,13 @@
 # 4. Quais são os recursos/funcionalidades disponibilizados - serão livros
 # Flask é ótimo para iniciantes
 
-#Flask = servidor
+# Flask = servidor
 # jsonfy = retorna os dados no formato json
 # request = fazer as requisições para acessar os dados
 
 from flask import Flask, jsonify, request
 
-# Servido que está hospedando a API - cria a aplicação com o nome atual do arquivo
+# Servidor que está hospedando a API - cria a aplicação com o nome atual do arquivo
 app = Flask(__name__)
 
 # Fonte de dados - origem dos dados
